@@ -1,0 +1,12 @@
+/backend/node_modules/
+/backend/.env
+/backend/uploads/*
+!/backend/uploads/.gitkeep
+/backend/src/database/database.sqlite
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+
+/web/node_modules/
+/web/.env
+/web/yarn-debug.log*
+/web/yarn-error.log*
