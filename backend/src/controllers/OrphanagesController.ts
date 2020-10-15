@@ -29,6 +29,16 @@ export default {
         return response.status(201).json(orphanageView.render(orphanage));
     },
 
+    async delete(request: Request, response: Response) {
+        const { id } = request.params;
+
+        const orphanagesRepository = getRepository(Orphanage);
+
+        await orphanagesRepository.delete(id);
+
+        return response.status(201).json({ message: "Deleted successfully!" });
+    },
+
     async create(request: Request, response: Response) {
         const {
             name, latitude, longitude, about, instructions, open_hours, open_on_weekends
@@ -42,7 +52,14 @@ export default {
         const orphanagesRepository = getRepository(Orphanage);
 
         const data = {
-            name, latitude, longitude, about, instructions, open_hours, open_on_weekends, images
+            name,
+            latitude,
+            longitude,
+            about,
+            instructions,
+            open_hours,
+            open_on_weekends: open_on_weekends === "true",
+            images
         };
 
         const schema = Yup.object().shape({

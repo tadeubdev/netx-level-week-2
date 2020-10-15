@@ -2,30 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9490266b-66c7-4d50-96af-d72f41aa00f9" name="Default Changelist" comment="commit initial">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ormconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/upload.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/OrphanagesController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/connection.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/1602595721005-create_orphanages.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/1602599769822-create_images.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/errors/handler.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Image.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Orphanage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/images_view.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/orphanages_view.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/OrphanagesController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/OrphanagesController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/errors/handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/errors/handler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/screen/Landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/screen/Landing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/screen/OrphanageMaps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/screen/OrphanageMaps.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/styles/screen/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/styles/screen/landing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/styles/screen/orphanage-map.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/styles/screen/orphanage-map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../web/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ip4hP8N5hNmRtTp3ARuVOqOGa6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,11 +46,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,14 +68,28 @@
       <option name="presentableId" value="Default" />
       <updated>1602591320436</updated>
       <workItem from="1602591322517" duration="9573000" />
-      <workItem from="1602670074354" duration="1615000" />
+      <workItem from="1602670074354" duration="2251000" />
+      <workItem from="1602681647915" duration="91000" />
+      <workItem from="1602683558773" duration="86000" />
+      <workItem from="1602759751104" duration="1144000" />
     </task>
+    <task id="LOCAL-00001" summary="commit initial">
+      <created>1602671696168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602671696168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="commit initial" />
     <option name="LAST_COMMIT_MESSAGE" value="commit initial" />
   </component>
@@ -97,10 +102,10 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="583" y="221" width="447" height="498" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1602671465353" />
-    <state x="289" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1602591354248">
+    <state x="289" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1602759775299">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="289" y="98" width="1022" height="737" key="SettingsEditor/0.27.1600.873@0.27.1600.873" timestamp="1602591354248" />
+    <state x="289" y="98" width="1022" height="737" key="SettingsEditor/0.27.1600.873@0.27.1600.873" timestamp="1602759775299" />
     <state x="453" y="81" width="683" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602600489802">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -109,5 +114,9 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="539" y="180" width="511" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.27.1600.873@0.27.1600.873" timestamp="1602671503472" />
+    <state x="604" y="373" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602671718411">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="604" y="373" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog/0.27.1600.873@0.27.1600.873" timestamp="1602671718411" />
   </component>
 </project>
